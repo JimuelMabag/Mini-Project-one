@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size:2rem;
+    color: blue;
+}
+
+.nav-link {
+    color: violet;
+}
+
+.nav-link:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.nav-item {
+    color: violet;
+    font-weight: 500;
+    padding-left: 35px;
+}
+ 
+.btn0 {
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: green;
+}
+
+.btn0:hover {
+    background: red;
+    transition: all 0.4s;
+}
+
+.btn1 {
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: green;
+}
+
+.btn1:hover {
+    background-color: red;
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.main {
+    background: url(./images/about.jpg)no-repeat;
+    background-size: 800px;
+    background-position: right;
+    width: 80;
+    height: 90vh;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    color: burlywood;
+}
+
+.main input {
+    height: 71px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+
+.main p {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 30;
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.ceta h1{
+    font-size: 3.5rem;
+    color: blue;
+}
+
+.ceta .card:hover {
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: -1px -9px 35px 8px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -9px 35px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -9px 35px 8px rgba(0,0,0,0.75);
+}
+
+.btn3 {
+    height: 70%;
+    width: 70%;
+    border: 1px solid rgb(142, 84, 142);
+    background: transparent;
+    border-radius: 5px;
+    color: rgb(169, 96, 169);
+    transition: all 0.4s;
+}
+
+.btn3:hover {
+    background: violet;
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card:hover .circle {
+background-color: black;
+color: white;
+transition: 0.5s;
+}
+
+.contact .btn3 {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+
+.btn3:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: rgb(16, 16, 16);
+    color: lightgray;
+}
+
+
