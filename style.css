@@ -143,7 +143,7 @@ transition: 0.5s;
 }
 
 .contact .btn3 {
-    background-color: black;
+    background-color: red;
     color: white;
     outline: none;
     border: none;
@@ -160,7 +160,7 @@ transition: 0.5s;
 }
 
 footer {
-    background-color: rgb(16, 16, 16);
-    color: lightgray;
+    background-color: rgb(148, 77, 77);
+    color: white;
 }
 
